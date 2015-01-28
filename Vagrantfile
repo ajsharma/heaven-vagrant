@@ -205,6 +205,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision :shell, :path => "vagrant/tools.sh"
+  config.vm.provision :shell, :path => "vagrant/install-redis.sh"
   config.vm.provision :shell, :path => "vagrant/post-setup.sh"
 
   # Enable provisioning with chef server, specifying the chef server URL,
