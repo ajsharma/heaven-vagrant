@@ -13,4 +13,4 @@ cd /opt/redis-2.8.19
 make
 
 echo "Redis installed"
-echo "Run Redis with `/opt/redis-2.8.19/src/redis-server"
+echo "Run Redis with `sudo /opt/redis-2.8.19/src/redis-server"
