@@ -25,7 +25,7 @@ echo "Updating apt-get"
 apt-get -qy update
 
 echo "Installing libraries from apt-get"
-apt-get -qy install curl build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev git-core libpq-dev
+apt-get -qy install curl build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev git-core libpq-dev libsqlite3-dev
 
 ###
 # Install latest git
